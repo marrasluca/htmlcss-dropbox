@@ -1,3 +1,5 @@
+/* inizio header */
+
 header {
     padding: 15px;
 }
@@ -21,6 +23,7 @@ header nav > div  ul{
 
 header nav > div  ul li a {
     color: black;
+    margin: 10px;
 }
 
 li {
@@ -39,3 +42,56 @@ a {
     background-color: #0161FF;
     color: white;
 }
+
+
+/* inizio main */
+
+.jumbotron {
+    background-color: #B4D0E7;
+    padding: 20px 0;
+}
+
+.container-90 {
+    max-width: 90%;
+    margin: 0% auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container-90 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.jumbotron__text {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.jumbotron__text a {
+    width: 200px;
+}
+
+.jumbotron__text i {
+    font-size: 3rem;
+}
+
+.jumbotron__img {
+    flex-basis: 60%;
+}
+
+.jumbotron__img img {
+    width: 100%;
+}
+
+.jumbotron__info {
+position: relative;
+bottom: -100px;
+}
+ 
