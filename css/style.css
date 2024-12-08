@@ -1,0 +1,41 @@
+header {
+    padding: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header nav > div  ul{
+    display: flex;
+    gap: 10px;
+}
+
+header nav > div  ul li a {
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 5px 15px;
+}
+
+.btn--blue{
+    background-color: #0161FF;
+    color: white;
+}
