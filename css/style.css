@@ -216,7 +216,26 @@ bottom: -100px;
 #dropbox-partner figure img {
     width: 100%;
 }
+
+
 .btn--white {
     border: 1px solid black;
     color: black;
+}
+
+
+/* inizio 6 box */
+
+#operazioni-dropbox figure img {
+    width: 100%;
+}
+
+.operazioni-dropbox__boxs {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.operazioni-dropbox__box {
+    flex-basis: calc( 100% / 3 - 10px);
 }
