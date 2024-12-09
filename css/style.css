@@ -194,4 +194,16 @@ bottom: -100px;
     margin: 0%;
 } */
 
+.business-plan__cards:last-child ,
+.business-plan__card--bottoms{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
 
+.btn--blue-last{
+    margin: 20px;
+    background-color: #0161FF;
+    color: white;
+}
