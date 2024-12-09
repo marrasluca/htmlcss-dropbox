@@ -36,6 +36,7 @@ a {
 
 .btn {
     padding: 5px 15px;
+    text-align: center;
 }
 
 .btn--blue{
@@ -141,5 +142,56 @@ bottom: -100px;
     flex-basis: 100%;
 }
 
+.business-plan__card {
+    border: 1px solid lightslategray;
+}
 
- 
+.business-plan__card--top {
+    text-align: center;
+    padding: 10px;
+}
+
+.business-plan__card--top,
+.business-plan__card--bottom {
+ padding: 10px;
+}
+
+.business-plan__card--bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.business-plan__card--bottom ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.business-plan__card--bottom hr {
+    width: 30%;
+    border: 1px solid lightslategrey;
+}
+
+.fa-check {
+    color: #0161FF;
+}
+
+.business-plan__scelta span{
+    margin-bottom: 10px;
+}
+
+.business-plan__card--bottom ul li {
+    text-indent: -0.5rem;
+    margin-left: 1rem;
+}
+
+.business-plan__card--bottom ul li i {
+    margin-right: 5px;
+}
+
+/* .business-plan__card--bottom {
+    margin: 0%;
+} */
+
+
